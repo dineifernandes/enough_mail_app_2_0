@@ -348,7 +348,7 @@
   "@drawerEntryAbout": {
     "description": "Menu entry for about."
   },
-  "drawerEntrySettings": "Settings",
+  "drawerEntrySettings": "Claudinei Fernandes",
   "@drawerEntrySettings": {
     "description": "Menu entry for settings."
   },
@@ -804,7 +804,7 @@
   "@accountActionReorder": {
     "description": "Action to start reordering accounts."
   },
-  "settingsTitle": "Settings",
+  "settingsTitle": "Claudinei Fernandes F",
   "@settingsTitle": {
     "description": "Title of base settings screen."
   },

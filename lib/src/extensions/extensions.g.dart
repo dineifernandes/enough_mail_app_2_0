@@ -7,7 +7,7 @@ part of 'extensions.dart';
 // **************************************************************************
 
 AppExtension _$AppExtensionFromJson(Map<String, dynamic> json) => AppExtension(
-      version: json['version'] as int?,
+      version: (json['version'] as num?)?.toInt(),
       accountSideMenu: (json['accountSideMenu'] as List<dynamic>?)
           ?.map((e) =>
               AppExtensionActionDescription.fromJson(e as Map<String, dynamic>))

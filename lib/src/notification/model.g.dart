@@ -9,12 +9,12 @@ part of 'model.dart';
 MailNotificationPayload _$MailNotificationPayloadFromJson(
         Map<String, dynamic> json) =>
     MailNotificationPayload(
-      guid: json['guid'] as int,
-      uid: json['uid'] as int,
-      sequenceId: json['id'] as int,
+      guid: (json['guid'] as num).toInt(),
+      uid: (json['uid'] as num).toInt(),
+      sequenceId: (json['id'] as num).toInt(),
       accountEmail: json['account-email'] as String,
       subject: json['subject'] as String,
-      size: json['size'] as int,
+      size: (json['size'] as num).toInt(),
     );
 
 Map<String, dynamic> _$MailNotificationPayloadToJson(

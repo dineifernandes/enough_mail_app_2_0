@@ -953,7 +953,7 @@ abstract class _$Source extends BuildlessAsyncNotifier<MessageSource> {
   late final Account account;
   late final Mailbox? mailbox;
 
-  Future<MessageSource> build({
+  FutureOr<MessageSource> build({
     required Account account,
     Mailbox? mailbox,
   });
@@ -1053,7 +1053,7 @@ class SourceProvider extends AsyncNotifierProviderImpl<Source, MessageSource> {
   final Mailbox? mailbox;
 
   @override
-  Future<MessageSource> runNotifierBuild(
+  FutureOr<MessageSource> runNotifierBuild(
     covariant Source notifier,
   ) {
     return notifier.build(
@@ -1128,7 +1128,7 @@ abstract class _$UnifiedSource
   late final UnifiedAccount account;
   late final Mailbox? mailbox;
 
-  Future<MultipleMessageSource> build({
+  FutureOr<MultipleMessageSource> build({
     required UnifiedAccount account,
     Mailbox? mailbox,
   });
@@ -1230,7 +1230,7 @@ class UnifiedSourceProvider
   final Mailbox? mailbox;
 
   @override
-  Future<MultipleMessageSource> runNotifierBuild(
+  FutureOr<MultipleMessageSource> runNotifierBuild(
     covariant UnifiedSource notifier,
   ) {
     return notifier.build(
@@ -1307,7 +1307,7 @@ abstract class _$RealSource
   late final RealAccount account;
   late final Mailbox? mailbox;
 
-  Future<MailboxMessageSource> build({
+  FutureOr<MailboxMessageSource> build({
     required RealAccount account,
     Mailbox? mailbox,
   });
@@ -1409,7 +1409,7 @@ class RealSourceProvider
   final Mailbox? mailbox;
 
   @override
-  Future<MailboxMessageSource> runNotifierBuild(
+  FutureOr<MailboxMessageSource> runNotifierBuild(
     covariant RealSource notifier,
   ) {
     return notifier.build(
@@ -1486,7 +1486,7 @@ abstract class _$RealMimeSource
   late final RealAccount account;
   late final Mailbox? mailbox;
 
-  Future<AsyncMimeSource> build({
+  FutureOr<AsyncMimeSource> build({
     required RealAccount account,
     Mailbox? mailbox,
   });
@@ -1588,7 +1588,7 @@ class RealMimeSourceProvider
   final Mailbox? mailbox;
 
   @override
-  Future<AsyncMimeSource> runNotifierBuild(
+  FutureOr<AsyncMimeSource> runNotifierBuild(
     covariant RealMimeSource notifier,
   ) {
     return notifier.build(

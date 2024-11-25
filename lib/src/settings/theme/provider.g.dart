@@ -23,7 +23,7 @@ final defaultColorSeedProvider = Provider<Color>.internal(
 );
 
 typedef DefaultColorSeedRef = ProviderRef<Color>;
-String _$themeFinderHash() => r'484171788a33fa10e91e0f085a1c87cb4a29d8f0';
+String _$themeFinderHash() => r'6bf8bd2d9c39da08e69265ee30cfab767b117541';
 
 /// Copied from Dart SDK
 class _SystemHash {
