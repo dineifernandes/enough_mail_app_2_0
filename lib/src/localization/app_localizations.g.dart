@@ -8,6 +8,7 @@ import 'package:intl/intl.dart' as intl;
 import 'app_localizations_de.g.dart';
 import 'app_localizations_en.g.dart';
 import 'app_localizations_es.g.dart';
+import 'app_localizations_pt.g.dart';
 
 /// Callers can lookup localized strings with an instance of AppLocalizations
 /// returned by `AppLocalizations.of(context)`.
@@ -61,7 +62,8 @@ import 'app_localizations_es.g.dart';
 /// be consistent with the languages listed in the AppLocalizations.supportedLocales
 /// property.
 abstract class AppLocalizations {
-  AppLocalizations(String locale) : localeName = intl.Intl.canonicalizedLocale(locale.toString());
+  AppLocalizations(String locale)
+      : localeName = intl.Intl.canonicalizedLocale(locale.toString());
 
   final String localeName;
 
@@ -69,7 +71,8 @@ abstract class AppLocalizations {
     return Localizations.of<AppLocalizations>(context, AppLocalizations);
   }
 
-  static const LocalizationsDelegate<AppLocalizations> delegate = _AppLocalizationsDelegate();
+  static const LocalizationsDelegate<AppLocalizations> delegate =
+      _AppLocalizationsDelegate();
 
   /// A list of this localizations delegate along with the default localizations
   /// delegates.
@@ -81,7 +84,8 @@ abstract class AppLocalizations {
   /// Additional delegates can be added by appending to this list in
   /// MaterialApp. This list does not have to be used at all if a custom list
   /// of delegates is preferred or required.
-  static const List<LocalizationsDelegate<dynamic>> localizationsDelegates = <LocalizationsDelegate<dynamic>>[
+  static const List<LocalizationsDelegate<dynamic>> localizationsDelegates =
+      <LocalizationsDelegate<dynamic>>[
     delegate,
     GlobalMaterialLocalizations.delegate,
     GlobalCupertinoLocalizations.delegate,
@@ -92,7 +96,8 @@ abstract class AppLocalizations {
   static const List<Locale> supportedLocales = <Locale>[
     Locale('en'),
     Locale('de'),
-    Locale('es')
+    Locale('es'),
+    Locale('pt'),
   ];
 
   /// Default signature text
@@ -1815,7 +1820,8 @@ abstract class AppLocalizations {
   ///
   /// In en, this message translates to:
   /// **'Your account {accountName} might support so called + aliases like {example}.\nA + alias helps you to protect your identity and helps you against spam.\nTo test this, a test message will be sent to this generated address. If it arrives, your provider supports + aliases and you can easily generate them on demand when writing a new mail message.'**
-  String editAccountTestPlusAliasStepIntroductionText(String accountName, String example);
+  String editAccountTestPlusAliasStepIntroductionText(
+      String accountName, String example);
 
   /// Title while testing concept of + aliases.
   ///
@@ -1935,7 +1941,8 @@ abstract class AppLocalizations {
   ///
   /// In en, this message translates to:
   /// **'Maily cannot reach the specified mail server. Please check your incoming server setting \"{incomingHost}\" and your outgoing server setting \"{outgoingHost}\".'**
-  String accountDetailsErrorHostProblem(String incomingHost, String outgoingHost);
+  String accountDetailsErrorHostProblem(
+      String incomingHost, String outgoingHost);
 
   /// Error details when login fails
   ///
@@ -3066,7 +3073,8 @@ abstract class AppLocalizations {
   String get durationEmpty;
 }
 
-class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {
+class _AppLocalizationsDelegate
+    extends LocalizationsDelegate<AppLocalizations> {
   const _AppLocalizationsDelegate();
 
   @override
@@ -3075,26 +3083,29 @@ class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> 
   }
 
   @override
-  bool isSupported(Locale locale) => <String>['de', 'en', 'es'].contains(locale.languageCode);
+  bool isSupported(Locale locale) =>
+      <String>['de', 'en', 'es'].contains(locale.languageCode);
 
   @override
   bool shouldReload(_AppLocalizationsDelegate old) => false;
 }
 
 AppLocalizations lookupAppLocalizations(Locale locale) {
-
-
   // Lookup logic when only language code is specified.
   switch (locale.languageCode) {
-    case 'de': return AppLocalizationsDe();
-    case 'en': return AppLocalizationsEn();
-    case 'es': return AppLocalizationsEs();
+    case 'de':
+      return AppLocalizationsDe();
+    case 'en':
+      return AppLocalizationsEn();
+    case 'es':
+      return AppLocalizationsEs();
+    case 'pt':
+      return AppLocalizationsPt();
   }
 
   throw FlutterError(
-    'AppLocalizations.delegate failed to load unsupported locale "$locale". This is likely '
-    'an issue with the localizations generation tool. Please file an issue '
-    'on GitHub with a reproducible sample app and the gen-l10n configuration '
-    'that was used.'
-  );
+      'AppLocalizations.delegate failed to load unsupported locale "$locale". This is likely '
+      'an issue with the localizations generation tool. Please file an issue '
+      'on GitHub with a reproducible sample app and the gen-l10n configuration '
+      'that was used.');
 }

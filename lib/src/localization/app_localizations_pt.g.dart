@@ -2,9 +2,9 @@ import 'package:intl/intl.dart' as intl;
 
 import 'app_localizations.g.dart';
 
-/// The translations for English (`en`).
-class AppLocalizationsEn extends AppLocalizations {
-  AppLocalizationsEn([String locale = 'en']) : super(locale);
+/// The translations for Portuguese (`pt`).
+class AppLocalizationsPt extends AppLocalizations {
+  AppLocalizationsPt([String locale = 'pt']) : super(locale);
 
   @override
   String get signature => 'Sent with Maily';
@@ -304,7 +304,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get drawerEntryAbout => 'About Maily';
 
   @override
-  String get drawerEntrySettings => 'Configurações';
+  String get drawerEntrySettings => 'Claudinei';
 
   @override
   String drawerAccountsSectionTitle(int number) {
@@ -639,7 +639,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get accountsActionReorder => 'Reorder accounts';
 
   @override
-  String get settingsTitle => 'Configurações';
+  String get settingsTitle => 'Claudinei';
 
   @override
   String get settingsSecurityBlockExternalImages => 'Block external images';
