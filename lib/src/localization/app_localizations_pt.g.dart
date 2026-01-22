@@ -1,5 +1,6 @@
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
+
 import 'app_localizations.g.dart';
 
 // ignore_for_file: type=lint
@@ -840,7 +841,7 @@ class AppLocalizationsPt extends AppLocalizations {
   String get lockScreenUnlockAction => 'Unlock';
 
   @override
-  String get addAccountTitle => 'Add Account';
+  String get addAccountTitle => 'Adicionar conta';
 
   @override
   String get addAccountEmailLabel => 'Email';
