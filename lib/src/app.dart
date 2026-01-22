@@ -64,6 +64,7 @@ class EnoughMailApp extends HookConsumerWidget {
           ? themeSettingsData.darkTheme
           : themeSettingsData.lightTheme,
       child: PlatformSnackApp.router(
+        locale: const Locale('pt'),
         supportedLocales: AppLocalizations.supportedLocales,
         localizationsDelegates: AppLocalizations.localizationsDelegates,
         debugShowCheckedModeBanner: false,

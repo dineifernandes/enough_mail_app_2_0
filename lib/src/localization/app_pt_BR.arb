@@ -1,0 +1,892 @@
+{
+  "@@locale": "pt_BR",
+  "signature": "Enviar com WipMail",
+  "@signature": {
+    "description": "Default signature text"
+  },
+  "actionCancel": "Cancelar",
+  "@actionCancel": {
+    "description": "Generic cancel action"
+  },
+  "actionOk": "OK",
+  "@actionOk": {
+    "description": "Generic OK action"
+  },
+  "actionDone": "Concluído",
+  "@actionDone": {
+    "description": "Generic done action"
+  },
+  "actionNext": "Próximo",
+  "@actionNext": {
+    "description": "Generic next action"
+  },
+  "actionSkip": "Pular",
+  "@actionSkip": {
+    "description": "Generic skip action"
+  },
+  "actionUndo": "Desfazer",
+  "@actionUndo": {
+    "description": "Generic undo action"
+  },
+  "actionDelete": "Excluir",
+  "@actionDelete": {
+    "description": "Generic delete action"
+  },
+  "actionAccept": "Aceitar",
+  "@actionAccept": {
+    "description": "Generic accept action"
+  },
+  "actionDecline": "Recusar",
+  "@actionDecline": {
+    "description": "Generic decline action"
+  },
+  "actionEdit": "Editar",
+  "@actionEdit": {
+    "description": "Generic edit action"
+  },
+  "actionAddressCopy": "Copiar",
+  "@actionAddressCopy": {
+    "description": "Copy action for email addresses"
+  },
+  "actionAddressCompose": "Nova mensagem",
+  "@actionAddressCompose": {
+    "description": "Compose action for email addresses"
+  },
+  "actionAddressSearch": "Pesquisar",
+  "@actionAddressSearch": {
+    "description": "Search action for email addresses"
+  },
+  "splashLoading1": "Maily iniciando...",
+  "@splashLoading1": {
+    "description": "Message shown on splash screen while loading"
+  },
+  "splashLoading2": "Preparando o motor do Maily...",
+  "@splashLoading2": {
+    "description": "Message shown on splash screen while loading"
+  },
+  "splashLoading3": "Lançando o Maily em 10, 9, 8...",
+  "@splashLoading3": {
+    "description": "Message shown on splash screen while loading"
+  },
+  "welcomePanel1Title": "Maily",
+  "@welcomePanel1Title": {
+    "description": "Welcome panel title"
+  },
+  "welcomePanel1Text": "Bem-vindo ao Maily, seu assistente de e-mail amigável e rápido!",
+  "@welcomePanel1Text": {
+    "description": "Welcome message shown on first panel"
+  },
+  "welcomePanel2Title": "Contas",
+  "@welcomePanel2Title": {
+    "description": "Welcome panel title"
+  },
+  "welcomePanel2Text": "Gerencie contas de e-mail ilimitadas. Leia e pesquise e-mails em todas as suas contas de uma só vez.",
+  "@welcomePanel2Text": {
+    "description": "Welcome message shown on second panel"
+  },
+  "welcomePanel3Title": "Deslizar e Pressionar",
+  "@welcomePanel3Title": {
+    "description": "Welcome panel title"
+  },
+  "welcomePanel3Text": "Deslize seus e-mails para excluí-los ou marcá-los como lidos. Pressione e segure uma mensagem para selecionar e gerenciar várias mensagens.",
+  "@welcomePanel3Text": {
+    "description": "Welcome message shown on third panel"
+  },
+  "welcomePanel4Title": "Mantenha sua Caixa de Entrada limpa",
+  "@welcomePanel4Title": {
+    "description": "Welcome panel title"
+  },
+  "welcomePanel4Text": "Cancele a assinatura de newsletters com apenas um toque.",
+  "@welcomePanel4Text": {
+    "description": "Welcome message shown on fourth panel"
+  },
+  "welcomeActionSignIn": "Entrar na sua conta de e-mail",
+  "@welcomeActionSignIn": {
+    "description": "Button showing login option"
+  },
+  "homeSearchHint": "Sua pesquisa",
+  "@homeSearchHint": {
+    "description": "Hint shown in empty search field"
+  },
+  "homeActionsShowAsStack": "Mostrar como pilha",
+  "@homeActionsShowAsStack": {
+    "description": "Action to show mails as stack"
+  },
+  "homeActionsShowAsList": "Mostrar como lista",
+  "@homeActionsShowAsList": {
+    "description": "Action to show mails as list"
+  },
+  "homeEmptyFolderMessage": "Tudo pronto!\n\nNão há mensagens nesta pasta.",
+  "@homeEmptyFolderMessage": {
+    "description": "Message shown when there are no messages in the folder"
+  },
+  "homeEmptySearchMessage": "Nenhuma mensagem encontrada.",
+  "@homeEmptySearchMessage": {
+    "description": "Message shown when there are no messages found in a search query"
+  },
+  "homeDeleteAllTitle": "Confirmar",
+  "@homeDeleteAllTitle": {
+    "description": "Title of confirmation dialog when deleting all messages"
+  },
+  "homeDeleteAllQuestion": "Deseja realmente excluir todas as mensagens?",
+  "@homeDeleteAllQuestion": {
+    "description": "Question in confirmation dialog when deleting all messages"
+  },
+  "homeDeleteAllAction": "Excluir tudo",
+  "@homeDeleteAllAction": {
+    "description": "Action to tap to delete all messages (must be short)."
+  },
+  "homeDeleteAllScrubOption": "Limpar mensagens",
+  "@homeDeleteAllScrubOption": {
+    "description": "Option to remove deleted messages from disk."
+  },
+  "homeDeleteAllSuccess": "Todas as mensagens foram excluídas.",
+  "@homeDeleteAllSuccess": {
+    "description": "Message shown after all messages have been deleted."
+  },
+  "homeMarkAllSeenAction": "Tudo lido",
+  "@homeMarkAllSeenAction": {
+    "description": "Action to tap to mark all messages as seen / read (must be short)."
+  },
+  "homeMarkAllUnseenAction": "Tudo não lido",
+  "@homeMarkAllUnseenAction": {
+    "description": "Action to tap to mark all messages as unseen / unread (must be short)."
+  },
+  "homeFabTooltip": "Nova mensagem",
+  "@homeFabTooltip": {
+    "description": "Tooltip for 'compose new message' floating action button."
+  },
+  "homeLoadingMessageSourceTitle": "Carregando...",
+  "@homeLoadingMessageSourceTitle": {
+    "description": "Title shown while message source itself is being loaded."
+  },
+  "homeLoading": "carregando {name}...",
+  "@homeLoading": {
+    "description": "Message shown while loading message.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Inbox"
+      }
+    }
+  },
+  "swipeActionToggleRead": "Marcar como lido/não lido",
+  "@swipeActionToggleRead": {
+    "description": "Swipe action for marking a message as read / unread."
+  },
+  "swipeActionDelete": "Excluir",
+  "@swipeActionDelete": {
+    "description": "Swipe action for deleting a message."
+  },
+  "swipeActionMarkJunk": "Marcar como spam",
+  "@swipeActionMarkJunk": {
+    "description": "Swipe action for moving a message to junk."
+  },
+  "swipeActionArchive": "Arquivar",
+  "@swipeActionArchive": {
+    "description": "Swipe action for moving a message to archive."
+  },
+  "swipeActionFlag": "Alternar sinalizador",
+  "@swipeActionFlag": {
+    "description": "Swipe action for marking a message as flagged / unflagged."
+  },
+  "multipleMovedToJunk": "{number,plural, =1{Uma mensagem marcada como spam} other{{number} mensagens marcadas como spam}}",
+  "@multipleMovedToJunk": {
+    "description": "Message shown after moving messages to junk.",
+    "placeholders": {
+      "number": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "multipleMovedToInbox": "{number,plural, =1{Uma mensagem movida para a caixa de entrada} other{{number} mensagens movidas para a caixa de entrada}}",
+  "@multipleMovedToInbox": {
+    "description": "Message shown after moving messages to Inbox.",
+    "placeholders": {
+      "number": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "multipleMovedToArchive": "{number,plural, =1{Uma mensagem arquivada} other{{number} mensagens arquivadas}}",
+  "@multipleMovedToArchive": {
+    "description": "Message shown after moving messages to archive.",
+    "placeholders": {
+      "number": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "multipleMovedToTrash": "{number,plural, =1{Uma mensagem excluída} other{{number} mensagens excluídas}}",
+  "@multipleMovedToTrash": {
+    "description": "Message shown after moving messages to trash.",
+    "placeholders": {
+      "number": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "multipleSelectionNeededInfo": "Por favor, selecione as mensagens primeiro.",
+  "@multipleSelectionNeededInfo": {
+    "description": "Short info shown when a multiple message action is triggered without selecting at least one message first."
+  },
+  "multipleSelectionActionFailed": "Não foi possível realizar a ação\nDetalhes: {details}",
+  "@multipleSelectionActionFailed": {
+    "description": "Error message when the selection action failed.",
+    "placeholders": {
+      "details": {
+        "type": "String",
+        "example": "Mailbox not found"
+      }
+    }
+  },
+  "multipleMoveTitle":  "{number,plural, =1{Mover mensagem} other{Mover {number} mensagens}}",
+  "@multipleMoveTitle": {
+    "description": "Title of move dialog for multiple messages.",
+    "placeholders": {
+      "number": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "messageActionMultipleMarkSeen": "Marcar como lidas",
+  "@messageActionMultipleMarkSeen": {
+    "description": "Action for several messages."
+  },
+  "messageActionMultipleMarkUnseen": "Marcar como não lidas",
+  "@messageActionMultipleMarkUnseen": {
+    "description": "Action for several messages."
+  },  "messageActionMultipleMarkFlagged": "Sinalizar mensagens",
+  "@messageActionMultipleMarkFlagged": {
+    "description": "Action for several messages."
+  },
+  "messageActionMultipleMarkUnflagged": "Remover sinalização",
+  "@messageActionMultipleMarkUnflagged": {
+    "description": "Action for several messages."
+  },
+  "messageActionViewInSafeMode": "Visualizar sem conteúdo externo",
+  "@messageActionMultipleViewInSafeMode": {
+    "description": "Action for message."
+  },
+  "emailSenderUnknown": "<remetente desconhecido>",
+  "@emailSenderUnknown": {
+    "description": "Shown as replacement when there is no known sender of a message."
+  },
+  "dateRangeFuture": "futuro",
+  "@dateRangeFuture": {
+    "description": "Date range title."
+  },
+  "dateRangeTomorrow": "amanhã",
+  "@dateRangeTomorrow": {
+    "description": "Date range title."
+  },
+  "dateRangeToday": "hoje",
+  "@dateRangeToday": {
+    "description": "Date range title."
+  },
+  "dateRangeYesterday": "ontem",
+  "@dateRangeYesterday": {
+    "description": "Date range title."
+  },
+  "dateRangeCurrentWeek": "esta semana",
+  "@dateRangeCurrentWeek": {
+    "description": "Date range title."
+  },
+  "dateRangeLastWeek": "semana passada",
+  "@dateRangeLastWeek": {
+    "description": "Date range title."
+  },
+  "dateRangeCurrentMonth": "este mês",
+  "@dateRangeCurrentMonth": {
+    "description": "Date range title."
+  },
+  "dateRangeLastMonth": "mês passado",
+  "@dateRangeLastMonth": {
+    "description": "Date range title."
+  },
+  "dateRangeCurrentYear": "este ano",
+  "@dateRangeCurrentYear": {
+    "description": "Date range title."
+  },
+  "dateRangeLongAgo": "há muito tempo",
+  "@dateRangeLongAgo": {
+    "description": "Date range title."
+  },
+  "dateUndefined": "indefinido",
+  "@dateUndefined": {
+    "description": "Unknown date."
+  },
+  "dateDayToday": "hoje",
+  "@dateDayToday": {
+    "description": "Message data is today."
+  },
+  "dateDayYesterday": "ontem",
+  "@dateDayYesterday": {
+    "description": "Message data is yesterday."
+  },
+  "dateDayLastWeekday": "último(a) {day}",
+  "@dateDayLastWeekday": {
+    "description": "Message data is a recent weekday.",
+    "placeholders": {
+      "day": {
+        "type": "String",
+        "example": "Tuesday"
+      }
+    }
+  },
+  "drawerEntryAbout": "Sobre o Maily",
+  "@drawerEntryAbout": {
+    "description": "Menu entry for about."
+  },
+  "drawerEntrySettings": "Configurações",
+  "@drawerEntrySettings": {
+    "description": "Menu entry for settings."
+  },
+  "drawerAccountsSectionTitle": "{number,plural, =1{Uma conta} other{{number} contas}}",
+  "@drawerAccountsSectionTitle": {
+    "description": "Title shown for accounts drop down.",
+    "placeholders": {
+      "number": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "drawerEntryAddAccount": "Adicionar conta",
+  "@drawerEntryAddAccount": {
+    "description": "Menu entry for adding a new account."
+  },
+  "unifiedAccountName": "Conta unificada",
+  "@unifiedAccountName": {
+    "description": "Name of unified account."
+  },
+  "unifiedFolderInbox": "Entrada Unificada",
+  "@unifiedFolderInbox": {
+    "description": "Folder name of unified account."
+  },
+  "unifiedFolderSent": "Enviados Unificados",
+  "@unifiedFolderSent": {
+    "description": "Folder name of unified account."
+  },
+  "unifiedFolderDrafts": "Rascunhos Unificados",
+  "@unifiedFolderDrafts": {
+    "description": "Folder name of unified account."
+  },
+  "unifiedFolderTrash": "Lixeira Unificada",
+  "@unifiedFolderTrash": {
+    "description": "Folder name of unified account."
+  },
+  "unifiedFolderArchive": "Arquivo Unificado",
+  "@unifiedFolderArchive": {
+    "description": "Folder name of unified account."
+  },
+  "unifiedFolderJunk": "Spam Unificado",
+  "@unifiedFolderJunk": {
+    "description": "Folder name of unified account."
+  },
+  "folderInbox": "Entrada",
+  "@folderInbox": {
+    "description": "Folder name."
+  },
+  "folderSent": "Enviados",
+  "@folderSent": {
+    "description": "Folder name."
+  },
+  "folderDrafts": "Rascunhos",
+  "@folderDrafts": {
+    "description": "Folder name."
+  },
+  "folderTrash": "Lixeira",
+  "@folderTrash": {
+    "description": "Folder name."
+  },
+  "folderArchive": "Arquivo",
+  "@folderArchive": {
+    "description": "Folder name."
+  },
+  "folderJunk": "Spam",
+  "@folderJunk": {
+    "description": "Folder name."
+  },
+  "folderUnknown": "Desconhecida",
+  "@folderUnknown": {
+    "description": "Folder name for a message source without a name."
+  },
+  "viewContentsAction": "Ver conteúdo",
+  "@viewContentsAction": {
+    "description": "Show contents of a message on a separate screen."
+  },
+  "viewSourceAction": "Ver código-fonte",
+  "@viewSourceAction": {
+    "description": "Show source code of a message."
+  },
+  "detailsErrorDownloadInfo": "A mensagem não pôde ser baixada.",
+  "@detailsErrorDownloadInfo": {
+    "description": "Info shown when an email could not be downloaded."
+  },
+  "detailsErrorDownloadRetry": "Tentar novamente",
+  "@detailsErrorDownloadRetry": {
+    "description": "Retry action shown when an email could not be downloaded."
+  },
+  "detailsHeaderFrom": "De",
+  "@detailsHeaderFrom": {
+    "description": "Label for sender(s) of email."
+  },
+  "detailsHeaderTo": "Para",
+  "@detailsHeaderTo": {
+    "description": "Label for [to] recipient(s) of email."
+  },
+  "detailsHeaderCc": "Cc",
+  "@detailsHeaderCc": {
+    "description": "Label for [CC] recipient(s) of email."
+  },
+  "detailsHeaderBcc": "Cco",
+  "@detailsHeaderBcc": {
+    "description": "Label for [BCC] recipient(s) of email."
+  },
+  "detailsHeaderDate": "Data",
+  "@detailsHeaderDate": {
+    "description": "Label for date of email."
+  },
+  "subjectUndefined": "<sem assunto>",
+  "@subjectUndefined": {
+    "description": "Shown instead of the subject when it is undefined."
+  },
+  "detailsActionShowImages": "Mostrar imagens",
+  "@detailsActionShowImages": {
+    "description": "Action for showing images."
+  },
+  "detailsNewsletterActionUnsubscribe": "Cancelar assinatura",
+  "@detailsNewsletterActionUnsubscribe": {
+    "description": "Action shown for unsubscribable newsletter."
+  },
+  "detailsNewsletterActionResubscribe": "Assinar novamente",
+  "@detailsNewsletterActionResubscribe": {
+    "description": "Action shown after re-subscribable newsletter."
+  },
+  "detailsNewsletterStatusUnsubscribed": "Assinatura cancelada",
+  "@detailsNewsletterStatusUnsubscribed": {
+    "description": "Status shown for unsubscribed newsletter."
+  },
+  "detailsNewsletterUnsubscribeDialogTitle": "Cancelar assinatura",
+  "@detailsNewsletterUnsubscribeDialogTitle": {
+    "description": "Title for unsubscribe newsletter dialog."
+  },
+  "detailsNewsletterUnsubscribeDialogQuestion": "Deseja cancelar a assinatura da lista de discussão {listName}?",
+  "@detailsNewsletterUnsubscribeDialogQuestion": {
+    "description": "Question for unsubscribe newsletter dialog.",
+    "placeholders": {
+      "listName": {
+        "type": "String",
+        "example": "List-Name"
+      }
+    }
+  },
+  "detailsNewsletterUnsubscribeDialogAction": "Cancelar assinatura",
+  "@detailsNewsletterUnsubscribeDialogAction": {
+    "description": "Action for unsubscribe newsletter dialog."
+  },
+  "detailsNewsletterUnsubscribeSuccessTitle": "Sucesso",
+  "@detailsNewsletterUnsubscribeSuccessTitle": {
+    "description": "Title for dialog after unsubscribing successfully."
+  },
+  "detailsNewsletterUnsubscribeSuccessMessage": "Sua assinatura da lista {listName} foi cancelada.",
+  "@detailsNewsletterUnsubscribeSuccessMessage": {
+    "description": "Text confirmation after successfully unsubscribing.",
+    "placeholders": {
+      "listName": {
+        "type": "String",
+        "example": "List-Name"
+      }
+    }
+  },
+  "detailsNewsletterUnsubscribeFailureTitle": "Erro ao cancelar",
+  "@detailsNewsletterUnsubscribeFailureTitle": {
+    "description": "Title for dialog after unsubscribing newsletter failed."
+  },
+  "detailsNewsletterUnsubscribeFailureMessage": "Desculpe, não foi possível cancelar sua assinatura de {listName} automaticamente.",
+  "@detailsNewsletterUnsubscribeFailureMessage": {
+    "description": "Text confirmation after unsubscribing failed.",
+    "placeholders": {
+      "listName": {
+        "type": "String",
+        "example": "List-Name"
+      }
+    }
+  },
+  "detailsNewsletterResubscribeDialogTitle": "Assinar novamente",
+  "@detailsNewsletterResubscribeDialogTitle": {
+    "description": "Title for re-subscribe newsletter dialog."
+  },
+  "detailsNewsletterResubscribeDialogQuestion": "Deseja assinar esta lista de discussão {listName} novamente?",
+  "@detailsNewsletterResubscribeDialogQuestion": {
+    "description": "Question for re-subscribe newsletter dialog.",
+    "placeholders": {
+      "listName": {
+        "type": "String",
+        "example": "List-Name"
+      }
+    }
+  },
+  "detailsNewsletterResubscribeDialogAction": "Assinar",
+  "@detailsNewsletterResubscribeDialogAction": {
+    "description": "Action for re-subscribe newsletter dialog."
+  },
+  "detailsNewsletterResubscribeSuccessTitle": "Assinado",
+  "@detailsNewsletterResubscribeSuccessTitle": {
+    "description": "Title for dialog after re-subscribed successfully."
+  },
+  "detailsNewsletterResubscribeSuccessMessage": "Você assinou novamente a lista de discussão {listName}.",
+  "@detailsNewsletterResubscribeSuccessMessage": {
+    "description": "Text confirmation after successfully re-subscribing.",
+    "placeholders": {
+      "listName": {
+        "type": "String",
+        "example": "List-Name"
+      }
+    }
+  },
+  "detailsNewsletterResubscribeFailureTitle": "Erro ao assinar",
+  "@detailsNewsletterResubscribeFailureTitle": {
+    "description": "Title for dialog after re-subscribing failed."
+  },
+  "detailsNewsletterResubscribeFailureMessage": "Desculpe, mas a solicitação de assinatura falhou para a lista {listName}.",
+  "@detailsNewsletterResubscribeFailureMessage": {
+    "description": "Text confirmation after re-subscribing failed.",
+    "placeholders": {
+      "listName": {
+        "type": "String",
+        "example": "List-Name"
+      }
+    }
+  },
+  "detailsSendReadReceiptAction": "Enviar confirmação de leitura",
+  "@detailsSendReadReceiptAction": {
+    "description": "Action to send the read receipt."
+  },
+  "detailsReadReceiptSentStatus": "Confirmação de leitura enviada ✔",
+  "@detailsReadReceiptSentStatus": {
+    "description": "Status after sending the read receipt."
+  },
+  "detailsReadReceiptSubject": "Confirmação de leitura",
+  "@detailsReadReceiptSubject": {
+    "description": "Message subject for read receipts."
+  },
+  "attachmentActionOpen": "Abrir",
+  "@attachmentActionOpen": {
+    "description": "Open action for attachments."
+  },
+  "attachmentDecodeError": "Este anexo possui um formato ou codificação não suportado.\nDetalhes: ${details}",
+  "@attachmentDecodeError": {
+    "description": "Text shown when downloaded attachment could not be decoded.",
+    "placeholders": {
+      "details": {
+        "type": "String"
+      }
+    }
+  },
+  "attachmentDownloadError": "Não foi possível baixar este anexo.\nDetalhes: ${details}",
+  "@attachmentDownloadError": {
+    "description": "Text shown when attachment could not be downloaded.",
+    "placeholders": {
+      "details": {
+        "type": "String"
+      }
+    }
+  },
+  "messageActionReply": "Responder",
+  "@messageActionReply": {
+    "description": "Action for single message."
+  },
+  "messageActionReplyAll": "Responder a todos",
+  "@messageActionReplyAll": {
+    "description": "Action for single message."
+  },
+  "messageActionForward": "Encaminhar",
+  "@messageActionForward": {
+    "description": "Action for single message."
+  },
+  "messageActionForwardAsAttachment": "Encaminhar como anexo",
+  "@messageActionForwardAsAttachment": {
+    "description": "Action for single message."
+  },
+  "messageActionForwardAttachments": "{number,plural, =1{Encaminhar anexo} other{Encaminhar {number} anexos}}",
+  "@messageActionForwardAttachments": {
+    "description": "Action for single message to forward attachments.",
+    "placeholders": {
+      "number": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "messagesActionForwardAttachments": "Encaminhar anexos",
+  "@messagesActionForwardAttachments": {
+    "description": "Action for multiple selected messages."
+  },
+  "messageActionDelete": "Excluir",
+  "@messageActionDelete": {
+    "description": "Action for single message."
+  },
+  "messageActionMoveToInbox": "Mover para entrada",
+  "@messageActionMoveToInbox": {
+    "description": "Action for single message."
+  },
+  "messageActionMove": "Mover",
+  "@messageActionMove": {
+    "description": "Action for single message."
+  },
+  "messageStatusSeen": "Lido",
+  "@messageStatusSeen": {
+    "description": "Status of single message."
+  },
+  "messageStatusUnseen": "Não lido",
+  "@messageStatusUnseen": {
+    "description": "Status of single message."
+  },
+  "messageStatusFlagged": "Sinalizado",
+  "@messageStatusFlagged": {
+    "description": "Status of single message."
+  },
+  "messageStatusUnflagged": "Não sinalizado",
+  "@messageStatusUnflagged": {
+    "description": "Status of single message."
+  },
+  "messageActionMarkAsJunk": "Marcar como spam",
+  "@messageActionMarkAsJunk": {
+    "description": "Action for single message."
+  },
+  "messageActionMarkAsNotJunk": "Não é spam",
+  "@messageActionMarkAsNotJunk": {
+    "description": "Action for single message."
+  },
+  "messageActionArchive": "Arquivar",
+  "@messageActionArchive": {
+    "description": "Action for single message."
+  },
+  "messageActionUnarchive": "Mover para Entrada",
+  "@messageActionUnarchive": {
+    "description": "Action for single message."
+  },
+  "messageActionRedirect": "Redirecionar",
+  "@messageActionRedirect": {
+    "description": "Action for single message."
+  },
+  "messageActionAddNotification": "Adicionar notificação",
+  "@messageActionAddNotification": {
+    "description": "Action for single message."
+  },
+  "resultDeleted": "Excluído",
+  "@resultDeleted": {
+    "description": "Successful short snackbar message."
+  },
+  "resultMovedToJunk": "Marcado como spam",
+  "@resultMovedToJunk": {
+    "description": "Successful short snackbar message."
+  },
+  "resultMovedToInbox": "Movido para a Entrada",
+  "@resultMovedToInbox": {
+    "description": "Successful short snackbar message."
+  },
+  "resultArchived": "Arquivado",
+  "@resultArchived": {
+    "description": "Successful short snackbar message."
+  },
+  "resultRedirectedSuccess": "Mensagem redirecionada 👍",
+  "@resultRedirectedSuccess": {
+    "description": "Successful snackbar message."
+  },
+  "resultRedirectedFailure": "Não foi possível redirecionar a mensagem.\n\nO servidor respondeu: \"{details}\"",
+  "@resultRedirectedFailure": {
+    "description": "Failure snackbar message.",
+    "placeholders": {
+      "details": {
+        "type": "String"
+      }
+    }
+  },
+  "redirectTitle": "Redirecionar",
+  "@redirectTitle": {
+    "description": "Title of redirect dialog."
+  },
+  "redirectInfo": "Redirecionar esta mensagem para os seguintes destinatários. Redirecionar não altera a mensagem.",
+  "@redirectInfo": {
+    "description": "Short explanation of redirect action."
+  },
+  "redirectEmailInputRequired": "Você precisa adicionar pelo menos um endereço de e-mail válido.",
+  "@redirectEmailInputRequired": {
+    "description": "Information when no address has been entered."
+  },
+  "searchQueryDescription": "Pesquisar em {folder}...",
+  "@searchQueryDescription": {
+    "description": "Description of search.",
+    "placeholders": {
+      "folder": {
+        "type": "String",
+        "example": "Inbox"
+      }
+    }
+  },
+  "searchQueryTitle": "Pesquisar \"{query}\"",
+  "@searchQueryTitle": {
+    "description": "Title for a search with the given query.",
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "legaleseUsage": "Ao usar o Maily, você concorda com nossa [PP] e nossos [TC].",
+  "@legaleseUsage": {
+    "description": "Legal info. [PP] -> Privacy Policy, [TC] -> Terms & Conditions."
+  },
+  "legalesePrivacyPolicy": "Política de Privacidade",
+  "@legalesePrivacyPolicy": {
+    "description": "Translation of privacy policy"
+  },
+  "legaleseTermsAndConditions": "Termos e Condições",
+  "@legaleseTermsAndConditions": {
+    "description": "Translation of Terms & Conditions "
+  },
+  "aboutApplicationLegalese": "Maily é um software livre publicado sob a GNU General Public License.",
+  "@aboutApplicationLegalese": {
+    "description": "Legal info shown in about dialog."
+  },
+  "feedbackActionSuggestFeature": "Sugerir um recurso",
+  "@feedbackActionSuggestFeature": {
+    "description": "Action to suggest a feature."
+  },
+  "feedbackActionReportProblem": "Relatar um problema",
+  "@feedbackActionReportProblem": {
+    "description": "Action to report a problem."
+  },
+  "feedbackActionHelpDeveloping": "Ajudar no desenvolvimento do Maily",
+  "@feedbackActionHelpDeveloping": {
+    "description": "Action to help developing."
+  },
+  "feedbackTitle": "Feedback",
+  "@feedbackTitle": {
+    "description": "Title of feedback settings screen."
+  },
+  "feedbackIntro": "Obrigado por testar o Maily!",
+  "@feedbackIntro": {
+    "description": "Intro for feedback settings screen."
+  },
+  "feedbackProvideInfoRequest": "Por favor, forneça estas informações ao relatar um problema:",
+  "@feedbackProvideInfoRequest": {
+    "description": "Request info when reporting a problem."
+  },
+  "feedbackResultInfoCopied": "Copiado para a área de transferência",
+  "@feedbackResultInfoCopied": {
+    "description": "Info shown after copying info."
+  },
+  "accountsTitle": "Contas",
+  "@accountsTitle": {
+    "description": "Title of accounts settings screen."
+  },
+  "accountsActionReorder": "Reordenar contas",
+  "@accountActionReorder": {
+    "description": "Action to start reordering accounts."
+  },
+  "settingsTitle": "Configurações",
+  "@settingsTitle": {
+    "description": "Title of base settings screen."
+  },
+  "settingsSecurityBlockExternalImages": "Bloquear imagens externas",
+  "@settingsSecurityBlockExternalImages": {
+    "description": "Settings option to block external options."
+  },
+  "settingsSecurityBlockExternalImagesDescriptionTitle": "Imagens externas",
+  "@settingsSecurityBlockExternalImagesDescriptionTitle": {
+    "description": "Title of dialog."
+  },
+  "settingsSecurityBlockExternalImagesDescriptionText": "E-mails podem conter imagens integradas ou hospedadas em servidores externos. Estas últimas podem expor informações ao remetente, como saber que você abriu a mensagem. Esta opção permite bloquear tais imagens, reduzindo o risco de expor dados sensíveis. Você ainda pode optar por carregá-las individualmente ao ler uma mensagem.",
+  "@settingsSecurityBlockExternalImagesDescriptionText": {
+    "description": "Text of dialog."
+  },
+  "settingsSecurityMessageRenderingHtml": "Mostrar conteúdo completo da mensagem",
+  "@settingsSecurityMessageRenderingHtml": {
+    "description": "Option for how to render messages."
+  },
+  "settingsSecurityMessageRenderingPlainText": "Mostrar apenas o texto das mensagens",
+  "@settingsSecurityMessageRenderingPlainText": {
+    "description": "Option for how to render messages."
+  },
+  "settingsSecurityLaunchModeLabel": "Como o Maily deve abrir links?",
+  "@settingsSecurityLaunchModeLabel": {
+    "description": "Option for how to launch URLs."
+  },
+  "settingsSecurityLaunchModeExternal": "Abrir links externamente",
+  "@settingsSecurityLaunchModeExternal": {
+    "description": "Option for how to launch URLs."
+  },
+  "settingsSecurityLaunchModeInApp": "Abrir links no Maily",
+  "@settingsSecurityLaunchModeInApp": {
+    "description": "Option for how to launch URLs."
+  },
+  "settingsActionAccounts": "Gerenciar contas",
+  "@settingsActionAccounts": {
+    "description": "Settings action to manage accounts."
+  },
+  "settingsActionDesign": "Aparência",
+  "@settingsActionDesign": {
+    "description": "Settings action to manage visualization."
+  },
+  "settingsActionFeedback": "Enviar feedback",
+  "@settingsActionFeedback": {
+    "description": "Settings action to provide feedback."
+  },
+  "settingsActionWelcome": "Mostrar tela de boas-vindas",
+  "@settingsActionWelcome": {
+    "description": "Settings action to show welcome screen."
+  },
+  "settingsReadReceipts": "Confirmações de leitura",
+  "@settingsReadReceipts": {
+    "description": "Settings action to customize read receipts."
+  },
+  "readReceiptsSettingsIntroduction": "Deseja exibir solicitações de confirmação de leitura?",
+  "@readReceiptsSettingsIntroduction": {
+    "description": "Introduction text for managing read receipt requests."
+  },
+  "readReceiptOptionAlways": "Sempre",
+  "@readReceiptOptionAlways": {
+    "description": "Display option for read receipt requests."
+  },
+  "readReceiptOptionNever": "Nunca",
+  "@readReceiptOptionNever": {
+    "description": "Display option for read receipt requests."
+  },
+  "settingsFolders": "Pastas",
+  "@settingsFolders": {
+    "description": "Settings action to customize folders."
+  },
+  "folderNamesIntroduction": "Quais nomes você prefere para suas pastas?",
+  "@folderNamesIntroduction": {
+    "description": "Introduction for folder names setting."
+  },
+  "folderNamesSettingLocalized": "Nomes fornecidos pelo Maily",
+  "@folderNamesSettingLocalized": {
+    "description": "Folder name setting option."
+  },
+  "folderNamesSettingServer": "Nomes fornecidos pelo serviço",
+  "@folderNamesSettingServer": {
+    "description": "Folder name setting option."
+  },
+  "folderNamesSettingCustom": "Meus próprios nomes personalizados",
+  "@folderNamesSettingCustom": {
+    "description": "Folder name setting option."
+  },
+  "folderNamesEditAction": "Editar nomes personalizados",
+  "@folderNamesEditAction": {
+    "description": "Action to specify custom folder names."
+  },
+  "folderNamesCustomTitle": "Nomes personalizados",
+  "@folderNamesCustomTitle": {
+    "description": "Title of dialog."
+  }
+}

@@ -4,719 +4,689 @@ import 'app_localizations.g.dart';
 
 // ignore_for_file: type=lint
 
-/// The translations for English (`en`).
-class AppLocalizationsEn extends AppLocalizations {
-  AppLocalizationsEn([String locale = 'en']) : super(locale);
+/// The translations for Portuguese (`pt`).
+class AppLocalizationsPt extends AppLocalizations {
+  AppLocalizationsPt([String locale = 'pt']) : super(locale);
 
   @override
-  String get signature => 'Sent with Maily';
+  String get signature => 'Enviar com WipMail';
 
   @override
-  String get actionCancel => 'Cancel';
+  String get actionCancel => 'Cancelar';
 
   @override
   String get actionOk => 'OK';
 
   @override
-  String get actionDone => 'Done';
+  String get actionDone => 'Concluído';
 
   @override
-  String get actionNext => 'Next';
+  String get actionNext => 'Próximo';
 
   @override
-  String get actionSkip => 'Skip';
+  String get actionSkip => 'Pular';
 
   @override
-  String get actionUndo => 'Undo';
+  String get actionUndo => 'Desfazer';
 
   @override
-  String get actionDelete => 'Delete';
+  String get actionDelete => 'Excluir';
 
   @override
-  String get actionAccept => 'Accept';
+  String get actionAccept => 'Aceitar';
 
   @override
-  String get actionDecline => 'Decline';
+  String get actionDecline => 'Recusar';
 
   @override
-  String get actionEdit => 'Edit';
+  String get actionEdit => 'Editar';
 
   @override
-  String get actionAddressCopy => 'Copy';
+  String get actionAddressCopy => 'Copiar';
 
   @override
-  String get actionAddressCompose => 'New message';
+  String get actionAddressCompose => 'Nova mensagem';
 
   @override
-  String get actionAddressSearch => 'Search';
+  String get actionAddressSearch => 'Pesquisar';
 
   @override
-  String get splashLoading1 => 'Maily starting...';
+  String get splashLoading1 => 'Maily iniciando...';
 
   @override
-  String get splashLoading2 => 'Getting your Maily engine ready...';
+  String get splashLoading2 => 'Preparando o motor do Maily...';
 
   @override
-  String get splashLoading3 => 'Launching Maily in 10, 9, 8...';
+  String get splashLoading3 => 'Lançando o Maily em 10, 9, 8...';
 
   @override
   String get welcomePanel1Title => 'Maily';
 
   @override
   String get welcomePanel1Text =>
-      'Welcome to Maily, your friendly and fast email helper!';
+      'Bem-vindo ao Maily, seu assistente de e-mail amigável e rápido!';
 
   @override
-  String get welcomePanel2Title => 'Accounts';
+  String get welcomePanel2Title => 'Contas';
 
   @override
   String get welcomePanel2Text =>
-      'Manage unlimited email accounts. Read and search for mails in all your accounts at once.';
+      'Gerencie contas de e-mail ilimitadas. Leia e pesquise e-mails em todas as suas contas de uma só vez.';
 
   @override
-  String get welcomePanel3Title => 'Swipe & Long-Press';
+  String get welcomePanel3Title => 'Deslizar e Pressionar';
 
   @override
   String get welcomePanel3Text =>
-      'Swipe your mails to delete them or to mark them read. Long-press a message to select and manage several messages.';
+      'Deslize seus e-mails para excluí-los ou marcá-los como lidos. Pressione e segure uma mensagem para selecionar e gerenciar várias mensagens.';
 
   @override
-  String get welcomePanel4Title => 'Keep your Inbox clean';
+  String get welcomePanel4Title => 'Mantenha sua Caixa de Entrada limpa';
 
   @override
-  String get welcomePanel4Text => 'Unsubscribe newsletters with just one tap.';
+  String get welcomePanel4Text =>
+      'Cancele a assinatura de newsletters com apenas um toque.';
 
   @override
-  String get welcomeActionSignIn => 'Sign in to your mail account';
+  String get welcomeActionSignIn => 'Entrar na sua conta de e-mail';
 
   @override
-  String get homeSearchHint => 'Your search';
+  String get homeSearchHint => 'Sua pesquisa';
 
   @override
-  String get homeActionsShowAsStack => 'Show as stack';
+  String get homeActionsShowAsStack => 'Mostrar como pilha';
 
   @override
-  String get homeActionsShowAsList => 'Show as list';
+  String get homeActionsShowAsList => 'Mostrar como lista';
 
   @override
   String get homeEmptyFolderMessage =>
-      'All done!\n\nThere are no messages in this folder.';
+      'Tudo pronto!\n\nNão há mensagens nesta pasta.';
 
   @override
-  String get homeEmptySearchMessage => 'No messages found.';
+  String get homeEmptySearchMessage => 'Nenhuma mensagem encontrada.';
 
   @override
-  String get homeDeleteAllTitle => 'Confirm';
+  String get homeDeleteAllTitle => 'Confirmar';
 
   @override
-  String get homeDeleteAllQuestion => 'Really delete all messages?';
+  String get homeDeleteAllQuestion =>
+      'Deseja realmente excluir todas as mensagens?';
 
   @override
-  String get homeDeleteAllAction => 'Delete all';
+  String get homeDeleteAllAction => 'Excluir tudo';
 
   @override
-  String get homeDeleteAllScrubOption => 'Scrub messages';
+  String get homeDeleteAllScrubOption => 'Limpar mensagens';
 
   @override
-  String get homeDeleteAllSuccess => 'All messages deleted.';
+  String get homeDeleteAllSuccess => 'Todas as mensagens foram excluídas.';
 
   @override
-  String get homeMarkAllSeenAction => 'All read';
+  String get homeMarkAllSeenAction => 'Tudo lido';
 
   @override
-  String get homeMarkAllUnseenAction => 'All unread';
+  String get homeMarkAllUnseenAction => 'Tudo não lido';
 
   @override
-  String get homeFabTooltip => 'New message';
+  String get homeFabTooltip => 'Nova mensagem';
 
   @override
-  String get homeLoadingMessageSourceTitle => 'Loading...';
+  String get homeLoadingMessageSourceTitle => 'Carregando...';
 
   @override
   String homeLoading(String name) {
-    return 'loading $name...';
+    return 'carregando $name...';
   }
 
   @override
-  String get swipeActionToggleRead => 'Mark as read/unread';
+  String get swipeActionToggleRead => 'Marcar como lido/não lido';
 
   @override
-  String get swipeActionDelete => 'Delete';
+  String get swipeActionDelete => 'Excluir';
 
   @override
-  String get swipeActionMarkJunk => 'Mark as junk';
+  String get swipeActionMarkJunk => 'Marcar como spam';
 
   @override
-  String get swipeActionArchive => 'Archive';
+  String get swipeActionArchive => 'Arquivar';
 
   @override
-  String get swipeActionFlag => 'Toggle flag';
+  String get swipeActionFlag => 'Alternar sinalizador';
 
   @override
   String multipleMovedToJunk(int number) {
-    final intl.NumberFormat numberNumberFormat = intl.NumberFormat.compactLong(
-      locale: localeName,
-    );
-    final String numberString = numberNumberFormat.format(number);
-
     String _temp0 = intl.Intl.pluralLogic(
       number,
       locale: localeName,
-      other: 'Marked $numberString messages as junk',
-      one: 'One message marked as junk',
+      other: '$number mensagens marcadas como spam',
+      one: 'Uma mensagem marcada como spam',
     );
     return '$_temp0';
   }
 
   @override
   String multipleMovedToInbox(int number) {
-    final intl.NumberFormat numberNumberFormat = intl.NumberFormat.compactLong(
-      locale: localeName,
-    );
-    final String numberString = numberNumberFormat.format(number);
-
     String _temp0 = intl.Intl.pluralLogic(
       number,
       locale: localeName,
-      other: 'Moved $numberString messages to inbox',
-      one: 'Moved one message to inbox',
+      other: '$number mensagens movidas para a caixa de entrada',
+      one: 'Uma mensagem movida para a caixa de entrada',
     );
     return '$_temp0';
   }
 
   @override
   String multipleMovedToArchive(int number) {
-    final intl.NumberFormat numberNumberFormat = intl.NumberFormat.compactLong(
-      locale: localeName,
-    );
-    final String numberString = numberNumberFormat.format(number);
-
     String _temp0 = intl.Intl.pluralLogic(
       number,
       locale: localeName,
-      other: 'Archived $numberString messages',
-      one: 'Archived one message',
+      other: '$number mensagens arquivadas',
+      one: 'Uma mensagem arquivada',
     );
     return '$_temp0';
   }
 
   @override
   String multipleMovedToTrash(int number) {
-    final intl.NumberFormat numberNumberFormat = intl.NumberFormat.compactLong(
-      locale: localeName,
-    );
-    final String numberString = numberNumberFormat.format(number);
-
     String _temp0 = intl.Intl.pluralLogic(
       number,
       locale: localeName,
-      other: 'Deleted $numberString messages',
-      one: 'Deleted one message',
+      other: '$number mensagens excluídas',
+      one: 'Uma mensagem excluída',
     );
     return '$_temp0';
   }
 
   @override
-  String get multipleSelectionNeededInfo => 'Please select messages first.';
+  String get multipleSelectionNeededInfo =>
+      'Por favor, selecione as mensagens primeiro.';
 
   @override
   String multipleSelectionActionFailed(String details) {
-    return 'Unable to perform action\nDetails: $details';
+    return 'Não foi possível realizar a ação\nDetalhes: $details';
   }
 
   @override
   String multipleMoveTitle(int number) {
-    final intl.NumberFormat numberNumberFormat = intl.NumberFormat.compactLong(
-      locale: localeName,
-    );
-    final String numberString = numberNumberFormat.format(number);
-
     String _temp0 = intl.Intl.pluralLogic(
       number,
       locale: localeName,
-      other: 'Move $numberString messages',
-      one: 'Move message',
+      other: 'Mover $number mensagens',
+      one: 'Mover mensagem',
     );
     return '$_temp0';
   }
 
   @override
-  String get messageActionMultipleMarkSeen => 'Mark as read';
+  String get messageActionMultipleMarkSeen => 'Marcar como lidas';
 
   @override
-  String get messageActionMultipleMarkUnseen => 'Mark as unread';
+  String get messageActionMultipleMarkUnseen => 'Marcar como não lidas';
 
   @override
-  String get messageActionMultipleMarkFlagged => 'Flag messages';
+  String get messageActionMultipleMarkFlagged => 'Sinalizar mensagens';
 
   @override
-  String get messageActionMultipleMarkUnflagged => 'Unflag messages';
+  String get messageActionMultipleMarkUnflagged => 'Remover sinalização';
 
   @override
-  String get messageActionViewInSafeMode => 'View without external content';
+  String get messageActionViewInSafeMode => 'Visualizar sem conteúdo externo';
 
   @override
-  String get emailSenderUnknown => '<no sender>';
+  String get emailSenderUnknown => '<remetente desconhecido>';
 
   @override
-  String get dateRangeFuture => 'future';
+  String get dateRangeFuture => 'futuro';
 
   @override
-  String get dateRangeTomorrow => 'tomorrow';
+  String get dateRangeTomorrow => 'amanhã';
 
   @override
-  String get dateRangeToday => 'today';
+  String get dateRangeToday => 'hoje';
 
   @override
-  String get dateRangeYesterday => 'yesterday';
+  String get dateRangeYesterday => 'ontem';
 
   @override
-  String get dateRangeCurrentWeek => 'this week';
+  String get dateRangeCurrentWeek => 'esta semana';
 
   @override
-  String get dateRangeLastWeek => 'last week';
+  String get dateRangeLastWeek => 'semana passada';
 
   @override
-  String get dateRangeCurrentMonth => 'this month';
+  String get dateRangeCurrentMonth => 'este mês';
 
   @override
-  String get dateRangeLastMonth => 'last month';
+  String get dateRangeLastMonth => 'mês passado';
 
   @override
-  String get dateRangeCurrentYear => 'this year';
+  String get dateRangeCurrentYear => 'este ano';
 
   @override
-  String get dateRangeLongAgo => 'long ago';
+  String get dateRangeLongAgo => 'há muito tempo';
 
   @override
-  String get dateUndefined => 'undefined';
+  String get dateUndefined => 'indefinido';
 
   @override
-  String get dateDayToday => 'today';
+  String get dateDayToday => 'hoje';
 
   @override
-  String get dateDayYesterday => 'yesterday';
+  String get dateDayYesterday => 'ontem';
 
   @override
   String dateDayLastWeekday(String day) {
-    return 'last $day';
+    return 'último(a) $day';
   }
 
   @override
-  String get drawerEntryAbout => 'About Maily';
+  String get drawerEntryAbout => 'Sobre o Maily';
 
   @override
-  String get drawerEntrySettings => 'Settings';
+  String get drawerEntrySettings => 'Configurações';
 
   @override
   String drawerAccountsSectionTitle(int number) {
-    final intl.NumberFormat numberNumberFormat = intl.NumberFormat.compactLong(
-      locale: localeName,
-    );
-    final String numberString = numberNumberFormat.format(number);
-
     String _temp0 = intl.Intl.pluralLogic(
       number,
       locale: localeName,
-      other: '$numberString accounts',
-      one: 'One account',
+      other: '$number contas',
+      one: 'Uma conta',
     );
     return '$_temp0';
   }
 
   @override
-  String get drawerEntryAddAccount => 'Add account';
+  String get drawerEntryAddAccount => 'Adicionar conta';
 
   @override
-  String get unifiedAccountName => 'Unified account';
+  String get unifiedAccountName => 'Conta unificada';
 
   @override
-  String get unifiedFolderInbox => 'Unified Inbox';
+  String get unifiedFolderInbox => 'Entrada Unificada';
 
   @override
-  String get unifiedFolderSent => 'Unified Sent';
+  String get unifiedFolderSent => 'Enviados Unificados';
 
   @override
-  String get unifiedFolderDrafts => 'Unified Drafts';
+  String get unifiedFolderDrafts => 'Rascunhos Unificados';
 
   @override
-  String get unifiedFolderTrash => 'Unified Trash';
+  String get unifiedFolderTrash => 'Lixeira Unificada';
 
   @override
-  String get unifiedFolderArchive => 'Unified Archive';
+  String get unifiedFolderArchive => 'Arquivo Unificado';
 
   @override
-  String get unifiedFolderJunk => 'Unified Junk';
+  String get unifiedFolderJunk => 'Spam Unificado';
 
   @override
-  String get folderInbox => 'Inbox';
+  String get folderInbox => 'Entrada';
 
   @override
-  String get folderSent => 'Sent';
+  String get folderSent => 'Enviados';
 
   @override
-  String get folderDrafts => 'Drafts';
+  String get folderDrafts => 'Rascunhos';
 
   @override
-  String get folderTrash => 'Trash';
+  String get folderTrash => 'Lixeira';
 
   @override
-  String get folderArchive => 'Archive';
+  String get folderArchive => 'Arquivo';
 
   @override
-  String get folderJunk => 'Junk';
+  String get folderJunk => 'Spam';
 
   @override
-  String get folderUnknown => 'Unknown';
+  String get folderUnknown => 'Desconhecida';
 
   @override
-  String get viewContentsAction => 'View contents';
+  String get viewContentsAction => 'Ver conteúdo';
 
   @override
-  String get viewSourceAction => 'View source';
+  String get viewSourceAction => 'Ver código-fonte';
 
   @override
-  String get detailsErrorDownloadInfo => 'Message could not be downloaded.';
+  String get detailsErrorDownloadInfo => 'A mensagem não pôde ser baixada.';
 
   @override
-  String get detailsErrorDownloadRetry => 'Retry';
+  String get detailsErrorDownloadRetry => 'Tentar novamente';
 
   @override
-  String get detailsHeaderFrom => 'From';
+  String get detailsHeaderFrom => 'De';
 
   @override
-  String get detailsHeaderTo => 'To';
+  String get detailsHeaderTo => 'Para';
 
   @override
-  String get detailsHeaderCc => 'CC';
+  String get detailsHeaderCc => 'Cc';
 
   @override
-  String get detailsHeaderBcc => 'BCC';
+  String get detailsHeaderBcc => 'Cco';
 
   @override
-  String get detailsHeaderDate => 'Date';
+  String get detailsHeaderDate => 'Data';
 
   @override
-  String get subjectUndefined => '<without subject>';
+  String get subjectUndefined => '<sem assunto>';
 
   @override
-  String get detailsActionShowImages => 'Show images';
+  String get detailsActionShowImages => 'Mostrar imagens';
 
   @override
-  String get detailsNewsletterActionUnsubscribe => 'Unsubscribe';
+  String get detailsNewsletterActionUnsubscribe => 'Cancelar assinatura';
 
   @override
-  String get detailsNewsletterActionResubscribe => 'Re-subscribe';
+  String get detailsNewsletterActionResubscribe => 'Assinar novamente';
 
   @override
-  String get detailsNewsletterStatusUnsubscribed => 'Unsubscribed';
+  String get detailsNewsletterStatusUnsubscribed => 'Assinatura cancelada';
 
   @override
-  String get detailsNewsletterUnsubscribeDialogTitle => 'Unsubscribe';
+  String get detailsNewsletterUnsubscribeDialogTitle => 'Cancelar assinatura';
 
   @override
   String detailsNewsletterUnsubscribeDialogQuestion(String listName) {
-    return 'Do you want to unsubscribe from the mailing list $listName?';
+    return 'Deseja cancelar a assinatura da lista de discussão $listName?';
   }
 
   @override
-  String get detailsNewsletterUnsubscribeDialogAction => 'Unsubscribe';
+  String get detailsNewsletterUnsubscribeDialogAction => 'Cancelar assinatura';
 
   @override
-  String get detailsNewsletterUnsubscribeSuccessTitle => 'Unsubscribed';
+  String get detailsNewsletterUnsubscribeSuccessTitle => 'Sucesso';
 
   @override
   String detailsNewsletterUnsubscribeSuccessMessage(String listName) {
-    return 'You are now unsubscribed from the mailing list $listName.';
+    return 'Sua assinatura da lista $listName foi cancelada.';
   }
 
   @override
-  String get detailsNewsletterUnsubscribeFailureTitle => 'Not unsubscribed';
+  String get detailsNewsletterUnsubscribeFailureTitle => 'Erro ao cancelar';
 
   @override
   String detailsNewsletterUnsubscribeFailureMessage(String listName) {
-    return 'Sorry, but I was unable to unsubscribe you from $listName automatically.';
+    return 'Desculpe, não foi possível cancelar sua assinatura de $listName automaticamente.';
   }
 
   @override
-  String get detailsNewsletterResubscribeDialogTitle => 'Re-subscribe';
+  String get detailsNewsletterResubscribeDialogTitle => 'Assinar novamente';
 
   @override
   String detailsNewsletterResubscribeDialogQuestion(String listName) {
-    return 'Do you want to subscribe to this mailing list $listName again?';
+    return 'Deseja assinar esta lista de discussão $listName novamente?';
   }
 
   @override
-  String get detailsNewsletterResubscribeDialogAction => 'Subscribe';
+  String get detailsNewsletterResubscribeDialogAction => 'Assinar';
 
   @override
-  String get detailsNewsletterResubscribeSuccessTitle => 'Subscribed';
+  String get detailsNewsletterResubscribeSuccessTitle => 'Assinado';
 
   @override
   String detailsNewsletterResubscribeSuccessMessage(String listName) {
-    return 'You are now subscribed to the mailing list $listName again.';
+    return 'Você assinou novamente a lista de discussão $listName.';
   }
 
   @override
-  String get detailsNewsletterResubscribeFailureTitle => 'Not subscribed';
+  String get detailsNewsletterResubscribeFailureTitle => 'Erro ao assinar';
 
   @override
   String detailsNewsletterResubscribeFailureMessage(String listName) {
-    return 'Sorry, but the subscribe request has failed for mailing list $listName.';
+    return 'Desculpe, mas a solicitação de assinatura falhou para a lista $listName.';
   }
 
   @override
-  String get detailsSendReadReceiptAction => 'Send read receipt';
+  String get detailsSendReadReceiptAction => 'Enviar confirmação de leitura';
 
   @override
-  String get detailsReadReceiptSentStatus => 'Read receipt sent ✔';
+  String get detailsReadReceiptSentStatus => 'Confirmação de leitura enviada ✔';
 
   @override
-  String get detailsReadReceiptSubject => 'Read receipt';
+  String get detailsReadReceiptSubject => 'Confirmação de leitura';
 
   @override
-  String get attachmentActionOpen => 'Open';
+  String get attachmentActionOpen => 'Abrir';
 
   @override
   String attachmentDecodeError(String details) {
-    return 'This attachment has an unsupported format or encoding.\nDetails: \$$details';
+    return 'Este anexo possui um formato ou codificação não suportado.\nDetalhes: \$$details';
   }
 
   @override
   String attachmentDownloadError(String details) {
-    return 'Unable to download this attachment.\nDetails: \$$details';
+    return 'Não foi possível baixar este anexo.\nDetalhes: \$$details';
   }
 
   @override
-  String get messageActionReply => 'Reply';
+  String get messageActionReply => 'Responder';
 
   @override
-  String get messageActionReplyAll => 'Reply all';
+  String get messageActionReplyAll => 'Responder a todos';
 
   @override
-  String get messageActionForward => 'Forward';
+  String get messageActionForward => 'Encaminhar';
 
   @override
-  String get messageActionForwardAsAttachment => 'Forward as attachment';
+  String get messageActionForwardAsAttachment => 'Encaminhar como anexo';
 
   @override
   String messageActionForwardAttachments(int number) {
-    final intl.NumberFormat numberNumberFormat = intl.NumberFormat.compactLong(
-      locale: localeName,
-    );
-    final String numberString = numberNumberFormat.format(number);
-
     String _temp0 = intl.Intl.pluralLogic(
       number,
       locale: localeName,
-      other: 'Forward $numberString attachments',
-      one: 'Forward attachment',
+      other: 'Encaminhar $number anexos',
+      one: 'Encaminhar anexo',
     );
     return '$_temp0';
   }
 
   @override
-  String get messagesActionForwardAttachments => 'Forward attachments';
+  String get messagesActionForwardAttachments => 'Encaminhar anexos';
 
   @override
-  String get messageActionDelete => 'Delete';
+  String get messageActionDelete => 'Excluir';
 
   @override
-  String get messageActionMoveToInbox => 'Move to inbox';
+  String get messageActionMoveToInbox => 'Mover para entrada';
 
   @override
-  String get messageActionMove => 'Move';
+  String get messageActionMove => 'Mover';
 
   @override
-  String get messageStatusSeen => 'Is read';
+  String get messageStatusSeen => 'Lido';
 
   @override
-  String get messageStatusUnseen => 'Is unread';
+  String get messageStatusUnseen => 'Não lido';
 
   @override
-  String get messageStatusFlagged => 'Is flagged';
+  String get messageStatusFlagged => 'Sinalizado';
 
   @override
-  String get messageStatusUnflagged => 'Is not flagged';
+  String get messageStatusUnflagged => 'Não sinalizado';
 
   @override
-  String get messageActionMarkAsJunk => 'Mark as junk';
+  String get messageActionMarkAsJunk => 'Marcar como spam';
 
   @override
-  String get messageActionMarkAsNotJunk => 'Mark as not junk';
+  String get messageActionMarkAsNotJunk => 'Não é spam';
 
   @override
-  String get messageActionArchive => 'Archive';
+  String get messageActionArchive => 'Arquivar';
 
   @override
-  String get messageActionUnarchive => 'Move to Inbox';
+  String get messageActionUnarchive => 'Mover para Entrada';
 
   @override
-  String get messageActionRedirect => 'Redirect';
+  String get messageActionRedirect => 'Redirecionar';
 
   @override
-  String get messageActionAddNotification => 'Add notification';
+  String get messageActionAddNotification => 'Adicionar notificação';
 
   @override
-  String get resultDeleted => 'Deleted';
+  String get resultDeleted => 'Excluído';
 
   @override
-  String get resultMovedToJunk => 'Marked as junk';
+  String get resultMovedToJunk => 'Marcado como spam';
 
   @override
-  String get resultMovedToInbox => 'Moved to Inbox';
+  String get resultMovedToInbox => 'Movido para a Entrada';
 
   @override
-  String get resultArchived => 'Archived';
+  String get resultArchived => 'Arquivado';
 
   @override
-  String get resultRedirectedSuccess => 'Message redirected 👍';
+  String get resultRedirectedSuccess => 'Mensagem redirecionada 👍';
 
   @override
   String resultRedirectedFailure(String details) {
-    return 'Unable to redirect message.\n\nThe server responded with the following details: \"$details\"';
+    return 'Não foi possível redirecionar a mensagem.\n\nO servidor respondeu: \"$details\"';
   }
 
   @override
-  String get redirectTitle => 'Redirect';
+  String get redirectTitle => 'Redirecionar';
 
   @override
   String get redirectInfo =>
-      'Redirect this message to the following recipient(s). Redirecting does not alter the message.';
+      'Redirecionar esta mensagem para os seguintes destinatários. Redirecionar não altera a mensagem.';
 
   @override
   String get redirectEmailInputRequired =>
-      'You need to add at least one valid email address.';
+      'Você precisa adicionar pelo menos um endereço de e-mail válido.';
 
   @override
   String searchQueryDescription(String folder) {
-    return 'Search in $folder...';
+    return 'Pesquisar em $folder...';
   }
 
   @override
   String searchQueryTitle(String query) {
-    return 'Search \"$query\"';
+    return 'Pesquisar \"$query\"';
   }
 
   @override
   String get legaleseUsage =>
-      'By using Maily you agree to our [PP] and to our [TC].';
+      'Ao usar o Maily, você concorda com nossa [PP] e nossos [TC].';
 
   @override
-  String get legalesePrivacyPolicy => 'Privacy Policy';
+  String get legalesePrivacyPolicy => 'Política de Privacidade';
 
   @override
-  String get legaleseTermsAndConditions => 'Terms & Conditions';
+  String get legaleseTermsAndConditions => 'Termos e Condições';
 
   @override
   String get aboutApplicationLegalese =>
-      'Maily is free software published under the GNU General Public License.';
+      'Maily é um software livre publicado sob a GNU General Public License.';
 
   @override
-  String get feedbackActionSuggestFeature => 'Suggest a feature';
+  String get feedbackActionSuggestFeature => 'Sugerir um recurso';
 
   @override
-  String get feedbackActionReportProblem => 'Report a problem';
+  String get feedbackActionReportProblem => 'Relatar um problema';
 
   @override
-  String get feedbackActionHelpDeveloping => 'Help developing Maily';
+  String get feedbackActionHelpDeveloping =>
+      'Ajudar no desenvolvimento do Maily';
 
   @override
   String get feedbackTitle => 'Feedback';
 
   @override
-  String get feedbackIntro => 'Thank you for testing Maily!';
+  String get feedbackIntro => 'Obrigado por testar o Maily!';
 
   @override
   String get feedbackProvideInfoRequest =>
-      'Please provide this information when you report a problem:';
+      'Por favor, forneça estas informações ao relatar um problema:';
 
   @override
-  String get feedbackResultInfoCopied => 'Copied to clipboard';
+  String get feedbackResultInfoCopied => 'Copiado para a área de transferência';
 
   @override
-  String get accountsTitle => 'Accounts';
+  String get accountsTitle => 'Contas';
 
   @override
-  String get accountsActionReorder => 'Reorder accounts';
+  String get accountsActionReorder => 'Reordenar contas';
 
   @override
-  String get settingsTitle => 'Settings';
+  String get settingsTitle => 'Configurações';
 
   @override
-  String get settingsSecurityBlockExternalImages => 'Block external images';
+  String get settingsSecurityBlockExternalImages => 'Bloquear imagens externas';
 
   @override
   String get settingsSecurityBlockExternalImagesDescriptionTitle =>
-      'External images';
+      'Imagens externas';
 
   @override
   String get settingsSecurityBlockExternalImagesDescriptionText =>
-      'Email messages can contain images that are either integrated or hosted on external servers. The latter, external images can expose information to the sender of the message, e.g. to let the sender know that you have opened the message. This option allows you to block such external images, which reduces the risk of exposing sensitive information. You can still opt in to load such images on a per-message-basis when you read a message.';
+      'E-mails podem conter imagens integradas ou hospedadas em servidores externos. Estas últimas podem expor informações ao remetente, como saber que você abriu a mensagem. Esta opção permite bloquear tais imagens, reduzindo o risco de expor dados sensíveis. Você ainda pode optar por carregá-las individualmente ao ler uma mensagem.';
 
   @override
   String get settingsSecurityMessageRenderingHtml =>
-      'Show full message contents';
+      'Mostrar conteúdo completo da mensagem';
 
   @override
   String get settingsSecurityMessageRenderingPlainText =>
-      'Show only the text of messages';
+      'Mostrar apenas o texto das mensagens';
 
   @override
-  String get settingsSecurityLaunchModeLabel => 'How should Maily open links?';
+  String get settingsSecurityLaunchModeLabel =>
+      'Como o Maily deve abrir links?';
 
   @override
-  String get settingsSecurityLaunchModeExternal => 'Open links externally';
+  String get settingsSecurityLaunchModeExternal => 'Abrir links externamente';
 
   @override
-  String get settingsSecurityLaunchModeInApp => 'Open links in Maily';
+  String get settingsSecurityLaunchModeInApp => 'Abrir links no Maily';
 
   @override
-  String get settingsActionAccounts => 'Manage accounts';
+  String get settingsActionAccounts => 'Gerenciar contas';
 
   @override
-  String get settingsActionDesign => 'Appearance';
+  String get settingsActionDesign => 'Aparência';
 
   @override
-  String get settingsActionFeedback => 'Provide feedback';
+  String get settingsActionFeedback => 'Enviar feedback';
 
   @override
-  String get settingsActionWelcome => 'Show welcome';
+  String get settingsActionWelcome => 'Mostrar tela de boas-vindas';
 
   @override
-  String get settingsReadReceipts => 'Read receipts';
+  String get settingsReadReceipts => 'Confirmações de leitura';
 
   @override
   String get readReceiptsSettingsIntroduction =>
-      'Do you want to display read receipt requests?';
+      'Deseja exibir solicitações de confirmação de leitura?';
 
   @override
-  String get readReceiptOptionAlways => 'Always';
+  String get readReceiptOptionAlways => 'Sempre';
 
   @override
-  String get readReceiptOptionNever => 'Never';
+  String get readReceiptOptionNever => 'Nunca';
 
   @override
-  String get settingsFolders => 'Folders';
+  String get settingsFolders => 'Pastas';
 
   @override
   String get folderNamesIntroduction =>
-      'What names do you prefer for your folders?';
+      'Quais nomes você prefere para suas pastas?';
 
   @override
-  String get folderNamesSettingLocalized => 'Names given by Maily';
+  String get folderNamesSettingLocalized => 'Nomes fornecidos pelo Maily';
 
   @override
-  String get folderNamesSettingServer => 'Names given by the service';
+  String get folderNamesSettingServer => 'Nomes fornecidos pelo serviço';
 
   @override
-  String get folderNamesSettingCustom => 'My own custom names';
+  String get folderNamesSettingCustom => 'Meus próprios nomes personalizados';
 
   @override
-  String get folderNamesEditAction => 'Edit custom names';
+  String get folderNamesEditAction => 'Editar nomes personalizados';
 
   @override
-  String get folderNamesCustomTitle => 'Custom names';
+  String get folderNamesCustomTitle => 'Nomes personalizados';
 
   @override
   String get folderAddAction => 'Create folder';
@@ -1843,4 +1813,689 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get durationEmpty => 'No duration';
+}
+
+/// The translations for Portuguese, as used in Brazil (`pt_BR`).
+class AppLocalizationsPtBr extends AppLocalizationsPt {
+  AppLocalizationsPtBr() : super('pt_BR');
+
+  @override
+  String get signature => 'Enviar com WipMail';
+
+  @override
+  String get actionCancel => 'Cancelar';
+
+  @override
+  String get actionOk => 'OK';
+
+  @override
+  String get actionDone => 'Concluído';
+
+  @override
+  String get actionNext => 'Próximo';
+
+  @override
+  String get actionSkip => 'Pular';
+
+  @override
+  String get actionUndo => 'Desfazer';
+
+  @override
+  String get actionDelete => 'Excluir';
+
+  @override
+  String get actionAccept => 'Aceitar';
+
+  @override
+  String get actionDecline => 'Recusar';
+
+  @override
+  String get actionEdit => 'Editar';
+
+  @override
+  String get actionAddressCopy => 'Copiar';
+
+  @override
+  String get actionAddressCompose => 'Nova mensagem';
+
+  @override
+  String get actionAddressSearch => 'Pesquisar';
+
+  @override
+  String get splashLoading1 => 'Maily iniciando...';
+
+  @override
+  String get splashLoading2 => 'Preparando o motor do Maily...';
+
+  @override
+  String get splashLoading3 => 'Lançando o Maily em 10, 9, 8...';
+
+  @override
+  String get welcomePanel1Title => 'Maily';
+
+  @override
+  String get welcomePanel1Text =>
+      'Bem-vindo ao Maily, seu assistente de e-mail amigável e rápido!';
+
+  @override
+  String get welcomePanel2Title => 'Contas';
+
+  @override
+  String get welcomePanel2Text =>
+      'Gerencie contas de e-mail ilimitadas. Leia e pesquise e-mails em todas as suas contas de uma só vez.';
+
+  @override
+  String get welcomePanel3Title => 'Deslizar e Pressionar';
+
+  @override
+  String get welcomePanel3Text =>
+      'Deslize seus e-mails para excluí-los ou marcá-los como lidos. Pressione e segure uma mensagem para selecionar e gerenciar várias mensagens.';
+
+  @override
+  String get welcomePanel4Title => 'Mantenha sua Caixa de Entrada limpa';
+
+  @override
+  String get welcomePanel4Text =>
+      'Cancele a assinatura de newsletters com apenas um toque.';
+
+  @override
+  String get welcomeActionSignIn => 'Entrar na sua conta de e-mail';
+
+  @override
+  String get homeSearchHint => 'Sua pesquisa';
+
+  @override
+  String get homeActionsShowAsStack => 'Mostrar como pilha';
+
+  @override
+  String get homeActionsShowAsList => 'Mostrar como lista';
+
+  @override
+  String get homeEmptyFolderMessage =>
+      'Tudo pronto!\n\nNão há mensagens nesta pasta.';
+
+  @override
+  String get homeEmptySearchMessage => 'Nenhuma mensagem encontrada.';
+
+  @override
+  String get homeDeleteAllTitle => 'Confirmar';
+
+  @override
+  String get homeDeleteAllQuestion =>
+      'Deseja realmente excluir todas as mensagens?';
+
+  @override
+  String get homeDeleteAllAction => 'Excluir tudo';
+
+  @override
+  String get homeDeleteAllScrubOption => 'Limpar mensagens';
+
+  @override
+  String get homeDeleteAllSuccess => 'Todas as mensagens foram excluídas.';
+
+  @override
+  String get homeMarkAllSeenAction => 'Tudo lido';
+
+  @override
+  String get homeMarkAllUnseenAction => 'Tudo não lido';
+
+  @override
+  String get homeFabTooltip => 'Nova mensagem';
+
+  @override
+  String get homeLoadingMessageSourceTitle => 'Carregando...';
+
+  @override
+  String homeLoading(String name) {
+    return 'carregando $name...';
+  }
+
+  @override
+  String get swipeActionToggleRead => 'Marcar como lido/não lido';
+
+  @override
+  String get swipeActionDelete => 'Excluir';
+
+  @override
+  String get swipeActionMarkJunk => 'Marcar como spam';
+
+  @override
+  String get swipeActionArchive => 'Arquivar';
+
+  @override
+  String get swipeActionFlag => 'Alternar sinalizador';
+
+  @override
+  String multipleMovedToJunk(int number) {
+    String _temp0 = intl.Intl.pluralLogic(
+      number,
+      locale: localeName,
+      other: '$number mensagens marcadas como spam',
+      one: 'Uma mensagem marcada como spam',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String multipleMovedToInbox(int number) {
+    String _temp0 = intl.Intl.pluralLogic(
+      number,
+      locale: localeName,
+      other: '$number mensagens movidas para a caixa de entrada',
+      one: 'Uma mensagem movida para a caixa de entrada',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String multipleMovedToArchive(int number) {
+    String _temp0 = intl.Intl.pluralLogic(
+      number,
+      locale: localeName,
+      other: '$number mensagens arquivadas',
+      one: 'Uma mensagem arquivada',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String multipleMovedToTrash(int number) {
+    String _temp0 = intl.Intl.pluralLogic(
+      number,
+      locale: localeName,
+      other: '$number mensagens excluídas',
+      one: 'Uma mensagem excluída',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get multipleSelectionNeededInfo =>
+      'Por favor, selecione as mensagens primeiro.';
+
+  @override
+  String multipleSelectionActionFailed(String details) {
+    return 'Não foi possível realizar a ação\nDetalhes: $details';
+  }
+
+  @override
+  String multipleMoveTitle(int number) {
+    String _temp0 = intl.Intl.pluralLogic(
+      number,
+      locale: localeName,
+      other: 'Mover $number mensagens',
+      one: 'Mover mensagem',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get messageActionMultipleMarkSeen => 'Marcar como lidas';
+
+  @override
+  String get messageActionMultipleMarkUnseen => 'Marcar como não lidas';
+
+  @override
+  String get messageActionMultipleMarkFlagged => 'Sinalizar mensagens';
+
+  @override
+  String get messageActionMultipleMarkUnflagged => 'Remover sinalização';
+
+  @override
+  String get messageActionViewInSafeMode => 'Visualizar sem conteúdo externo';
+
+  @override
+  String get emailSenderUnknown => '<remetente desconhecido>';
+
+  @override
+  String get dateRangeFuture => 'futuro';
+
+  @override
+  String get dateRangeTomorrow => 'amanhã';
+
+  @override
+  String get dateRangeToday => 'hoje';
+
+  @override
+  String get dateRangeYesterday => 'ontem';
+
+  @override
+  String get dateRangeCurrentWeek => 'esta semana';
+
+  @override
+  String get dateRangeLastWeek => 'semana passada';
+
+  @override
+  String get dateRangeCurrentMonth => 'este mês';
+
+  @override
+  String get dateRangeLastMonth => 'mês passado';
+
+  @override
+  String get dateRangeCurrentYear => 'este ano';
+
+  @override
+  String get dateRangeLongAgo => 'há muito tempo';
+
+  @override
+  String get dateUndefined => 'indefinido';
+
+  @override
+  String get dateDayToday => 'hoje';
+
+  @override
+  String get dateDayYesterday => 'ontem';
+
+  @override
+  String dateDayLastWeekday(String day) {
+    return 'último(a) $day';
+  }
+
+  @override
+  String get drawerEntryAbout => 'Sobre o Maily';
+
+  @override
+  String get drawerEntrySettings => 'Configurações';
+
+  @override
+  String drawerAccountsSectionTitle(int number) {
+    String _temp0 = intl.Intl.pluralLogic(
+      number,
+      locale: localeName,
+      other: '$number contas',
+      one: 'Uma conta',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get drawerEntryAddAccount => 'Adicionar conta';
+
+  @override
+  String get unifiedAccountName => 'Conta unificada';
+
+  @override
+  String get unifiedFolderInbox => 'Entrada Unificada';
+
+  @override
+  String get unifiedFolderSent => 'Enviados Unificados';
+
+  @override
+  String get unifiedFolderDrafts => 'Rascunhos Unificados';
+
+  @override
+  String get unifiedFolderTrash => 'Lixeira Unificada';
+
+  @override
+  String get unifiedFolderArchive => 'Arquivo Unificado';
+
+  @override
+  String get unifiedFolderJunk => 'Spam Unificado';
+
+  @override
+  String get folderInbox => 'Entrada';
+
+  @override
+  String get folderSent => 'Enviados';
+
+  @override
+  String get folderDrafts => 'Rascunhos';
+
+  @override
+  String get folderTrash => 'Lixeira';
+
+  @override
+  String get folderArchive => 'Arquivo';
+
+  @override
+  String get folderJunk => 'Spam';
+
+  @override
+  String get folderUnknown => 'Desconhecida';
+
+  @override
+  String get viewContentsAction => 'Ver conteúdo';
+
+  @override
+  String get viewSourceAction => 'Ver código-fonte';
+
+  @override
+  String get detailsErrorDownloadInfo => 'A mensagem não pôde ser baixada.';
+
+  @override
+  String get detailsErrorDownloadRetry => 'Tentar novamente';
+
+  @override
+  String get detailsHeaderFrom => 'De';
+
+  @override
+  String get detailsHeaderTo => 'Para';
+
+  @override
+  String get detailsHeaderCc => 'Cc';
+
+  @override
+  String get detailsHeaderBcc => 'Cco';
+
+  @override
+  String get detailsHeaderDate => 'Data';
+
+  @override
+  String get subjectUndefined => '<sem assunto>';
+
+  @override
+  String get detailsActionShowImages => 'Mostrar imagens';
+
+  @override
+  String get detailsNewsletterActionUnsubscribe => 'Cancelar assinatura';
+
+  @override
+  String get detailsNewsletterActionResubscribe => 'Assinar novamente';
+
+  @override
+  String get detailsNewsletterStatusUnsubscribed => 'Assinatura cancelada';
+
+  @override
+  String get detailsNewsletterUnsubscribeDialogTitle => 'Cancelar assinatura';
+
+  @override
+  String detailsNewsletterUnsubscribeDialogQuestion(String listName) {
+    return 'Deseja cancelar a assinatura da lista de discussão $listName?';
+  }
+
+  @override
+  String get detailsNewsletterUnsubscribeDialogAction => 'Cancelar assinatura';
+
+  @override
+  String get detailsNewsletterUnsubscribeSuccessTitle => 'Sucesso';
+
+  @override
+  String detailsNewsletterUnsubscribeSuccessMessage(String listName) {
+    return 'Sua assinatura da lista $listName foi cancelada.';
+  }
+
+  @override
+  String get detailsNewsletterUnsubscribeFailureTitle => 'Erro ao cancelar';
+
+  @override
+  String detailsNewsletterUnsubscribeFailureMessage(String listName) {
+    return 'Desculpe, não foi possível cancelar sua assinatura de $listName automaticamente.';
+  }
+
+  @override
+  String get detailsNewsletterResubscribeDialogTitle => 'Assinar novamente';
+
+  @override
+  String detailsNewsletterResubscribeDialogQuestion(String listName) {
+    return 'Deseja assinar esta lista de discussão $listName novamente?';
+  }
+
+  @override
+  String get detailsNewsletterResubscribeDialogAction => 'Assinar';
+
+  @override
+  String get detailsNewsletterResubscribeSuccessTitle => 'Assinado';
+
+  @override
+  String detailsNewsletterResubscribeSuccessMessage(String listName) {
+    return 'Você assinou novamente a lista de discussão $listName.';
+  }
+
+  @override
+  String get detailsNewsletterResubscribeFailureTitle => 'Erro ao assinar';
+
+  @override
+  String detailsNewsletterResubscribeFailureMessage(String listName) {
+    return 'Desculpe, mas a solicitação de assinatura falhou para a lista $listName.';
+  }
+
+  @override
+  String get detailsSendReadReceiptAction => 'Enviar confirmação de leitura';
+
+  @override
+  String get detailsReadReceiptSentStatus => 'Confirmação de leitura enviada ✔';
+
+  @override
+  String get detailsReadReceiptSubject => 'Confirmação de leitura';
+
+  @override
+  String get attachmentActionOpen => 'Abrir';
+
+  @override
+  String attachmentDecodeError(String details) {
+    return 'Este anexo possui um formato ou codificação não suportado.\nDetalhes: \$$details';
+  }
+
+  @override
+  String attachmentDownloadError(String details) {
+    return 'Não foi possível baixar este anexo.\nDetalhes: \$$details';
+  }
+
+  @override
+  String get messageActionReply => 'Responder';
+
+  @override
+  String get messageActionReplyAll => 'Responder a todos';
+
+  @override
+  String get messageActionForward => 'Encaminhar';
+
+  @override
+  String get messageActionForwardAsAttachment => 'Encaminhar como anexo';
+
+  @override
+  String messageActionForwardAttachments(int number) {
+    String _temp0 = intl.Intl.pluralLogic(
+      number,
+      locale: localeName,
+      other: 'Encaminhar $number anexos',
+      one: 'Encaminhar anexo',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get messagesActionForwardAttachments => 'Encaminhar anexos';
+
+  @override
+  String get messageActionDelete => 'Excluir';
+
+  @override
+  String get messageActionMoveToInbox => 'Mover para entrada';
+
+  @override
+  String get messageActionMove => 'Mover';
+
+  @override
+  String get messageStatusSeen => 'Lido';
+
+  @override
+  String get messageStatusUnseen => 'Não lido';
+
+  @override
+  String get messageStatusFlagged => 'Sinalizado';
+
+  @override
+  String get messageStatusUnflagged => 'Não sinalizado';
+
+  @override
+  String get messageActionMarkAsJunk => 'Marcar como spam';
+
+  @override
+  String get messageActionMarkAsNotJunk => 'Não é spam';
+
+  @override
+  String get messageActionArchive => 'Arquivar';
+
+  @override
+  String get messageActionUnarchive => 'Mover para Entrada';
+
+  @override
+  String get messageActionRedirect => 'Redirecionar';
+
+  @override
+  String get messageActionAddNotification => 'Adicionar notificação';
+
+  @override
+  String get resultDeleted => 'Excluído';
+
+  @override
+  String get resultMovedToJunk => 'Marcado como spam';
+
+  @override
+  String get resultMovedToInbox => 'Movido para a Entrada';
+
+  @override
+  String get resultArchived => 'Arquivado';
+
+  @override
+  String get resultRedirectedSuccess => 'Mensagem redirecionada 👍';
+
+  @override
+  String resultRedirectedFailure(String details) {
+    return 'Não foi possível redirecionar a mensagem.\n\nO servidor respondeu: \"$details\"';
+  }
+
+  @override
+  String get redirectTitle => 'Redirecionar';
+
+  @override
+  String get redirectInfo =>
+      'Redirecionar esta mensagem para os seguintes destinatários. Redirecionar não altera a mensagem.';
+
+  @override
+  String get redirectEmailInputRequired =>
+      'Você precisa adicionar pelo menos um endereço de e-mail válido.';
+
+  @override
+  String searchQueryDescription(String folder) {
+    return 'Pesquisar em $folder...';
+  }
+
+  @override
+  String searchQueryTitle(String query) {
+    return 'Pesquisar \"$query\"';
+  }
+
+  @override
+  String get legaleseUsage =>
+      'Ao usar o Maily, você concorda com nossa [PP] e nossos [TC].';
+
+  @override
+  String get legalesePrivacyPolicy => 'Política de Privacidade';
+
+  @override
+  String get legaleseTermsAndConditions => 'Termos e Condições';
+
+  @override
+  String get aboutApplicationLegalese =>
+      'Maily é um software livre publicado sob a GNU General Public License.';
+
+  @override
+  String get feedbackActionSuggestFeature => 'Sugerir um recurso';
+
+  @override
+  String get feedbackActionReportProblem => 'Relatar um problema';
+
+  @override
+  String get feedbackActionHelpDeveloping =>
+      'Ajudar no desenvolvimento do Maily';
+
+  @override
+  String get feedbackTitle => 'Feedback';
+
+  @override
+  String get feedbackIntro => 'Obrigado por testar o Maily!';
+
+  @override
+  String get feedbackProvideInfoRequest =>
+      'Por favor, forneça estas informações ao relatar um problema:';
+
+  @override
+  String get feedbackResultInfoCopied => 'Copiado para a área de transferência';
+
+  @override
+  String get accountsTitle => 'Contas';
+
+  @override
+  String get accountsActionReorder => 'Reordenar contas';
+
+  @override
+  String get settingsTitle => 'Configurações';
+
+  @override
+  String get settingsSecurityBlockExternalImages => 'Bloquear imagens externas';
+
+  @override
+  String get settingsSecurityBlockExternalImagesDescriptionTitle =>
+      'Imagens externas';
+
+  @override
+  String get settingsSecurityBlockExternalImagesDescriptionText =>
+      'E-mails podem conter imagens integradas ou hospedadas em servidores externos. Estas últimas podem expor informações ao remetente, como saber que você abriu a mensagem. Esta opção permite bloquear tais imagens, reduzindo o risco de expor dados sensíveis. Você ainda pode optar por carregá-las individualmente ao ler uma mensagem.';
+
+  @override
+  String get settingsSecurityMessageRenderingHtml =>
+      'Mostrar conteúdo completo da mensagem';
+
+  @override
+  String get settingsSecurityMessageRenderingPlainText =>
+      'Mostrar apenas o texto das mensagens';
+
+  @override
+  String get settingsSecurityLaunchModeLabel =>
+      'Como o Maily deve abrir links?';
+
+  @override
+  String get settingsSecurityLaunchModeExternal => 'Abrir links externamente';
+
+  @override
+  String get settingsSecurityLaunchModeInApp => 'Abrir links no Maily';
+
+  @override
+  String get settingsActionAccounts => 'Gerenciar contas';
+
+  @override
+  String get settingsActionDesign => 'Aparência';
+
+  @override
+  String get settingsActionFeedback => 'Enviar feedback';
+
+  @override
+  String get settingsActionWelcome => 'Mostrar tela de boas-vindas';
+
+  @override
+  String get settingsReadReceipts => 'Confirmações de leitura';
+
+  @override
+  String get readReceiptsSettingsIntroduction =>
+      'Deseja exibir solicitações de confirmação de leitura?';
+
+  @override
+  String get readReceiptOptionAlways => 'Sempre';
+
+  @override
+  String get readReceiptOptionNever => 'Nunca';
+
+  @override
+  String get settingsFolders => 'Pastas';
+
+  @override
+  String get folderNamesIntroduction =>
+      'Quais nomes você prefere para suas pastas?';
+
+  @override
+  String get folderNamesSettingLocalized => 'Nomes fornecidos pelo Maily';
+
+  @override
+  String get folderNamesSettingServer => 'Nomes fornecidos pelo serviço';
+
+  @override
+  String get folderNamesSettingCustom => 'Meus próprios nomes personalizados';
+
+  @override
+  String get folderNamesEditAction => 'Editar nomes personalizados';
+
+  @override
+  String get folderNamesCustomTitle => 'Nomes personalizados';
 }
