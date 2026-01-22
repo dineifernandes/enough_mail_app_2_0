@@ -690,25 +690,25 @@ class AppLocalizationsPt extends AppLocalizations {
   String get folderNamesCustomTitle => 'Nomes personalizados';
 
   @override
-  String get folderAddAction => 'Create folder';
+  String get folderAddAction => 'Criar pasta';
 
   @override
-  String get folderAddTitle => 'Create folder';
+  String get folderAddTitle => 'Criar pasta';
 
   @override
-  String get folderAddNameLabel => 'Name';
+  String get folderAddNameLabel => 'Nome';
 
   @override
-  String get folderAddNameHint => 'Name of the new folder';
+  String get folderAddNameHint => 'Nome para a nova pasta';
 
   @override
-  String get folderAccountLabel => 'Account';
+  String get folderAccountLabel => 'Conta';
 
   @override
-  String get folderMailboxLabel => 'Folder';
+  String get folderMailboxLabel => 'Pasta';
 
   @override
-  String get folderAddResultSuccess => 'Folder created 😊';
+  String get folderAddResultSuccess => 'Pasta criada 😊';
 
   @override
   String folderAddResultFailure(String details) {
@@ -838,16 +838,16 @@ class AppLocalizationsPt extends AppLocalizations {
       'Maily is locked, please authenticate to proceed.';
 
   @override
-  String get lockScreenUnlockAction => 'Unlock';
+  String get lockScreenUnlockAction => 'Desbloqueado';
 
   @override
   String get addAccountTitle => 'Adicionar conta';
 
   @override
-  String get addAccountEmailLabel => 'Email';
+  String get addAccountEmailLabel => 'E-mail';
 
   @override
-  String get addAccountEmailHint => 'Please enter your email address';
+  String get addAccountEmailHint => 'Por favor, digite seu endereço de e-mail';
 
   @override
   String addAccountResolvingSettingsLabel(String email) {
@@ -865,13 +865,13 @@ class AppLocalizationsPt extends AppLocalizations {
   }
 
   @override
-  String get addAccountEditManuallyAction => 'Edit manually';
+  String get addAccountEditManuallyAction => 'Editar manualmente';
 
   @override
-  String get addAccountPasswordLabel => 'Password';
+  String get addAccountPasswordLabel => 'Senha';
 
   @override
-  String get addAccountPasswordHint => 'Please enter your password';
+  String get addAccountPasswordHint => 'Por favor, digite sua senha.';
 
   @override
   String get addAccountApplicationPasswordRequiredInfo =>
@@ -886,10 +886,10 @@ class AppLocalizationsPt extends AppLocalizations {
       'I already have an app password';
 
   @override
-  String get addAccountVerificationStep => 'Verification';
+  String get addAccountVerificationStep => 'Verificação';
 
   @override
-  String get addAccountSetupAccountStep => 'Account Setup';
+  String get addAccountSetupAccountStep => 'Configuração da conta';
 
   @override
   String addAccountVerifyingSettingsLabel(String email) {
